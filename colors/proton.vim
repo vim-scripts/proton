@@ -1,7 +1,7 @@
 
 hi Normal guibg=#f0f0f0 guifg=#404040 gui=none
-hi Comment guibg=#f0f0f0 guifg=#9098a0 gui=italic
-hi Comment guibg=#f0f0f0 guifg=#9098a0 gui=italic,bold
+hi Comment guibg=#f0f0f0 guifg=#9098a0 gui=none
+hi ToDo guibg=#f0f0f0 guifg=#9098a0 gui=bold
 
 hi Cursor guibg=#404040 guifg=#a0a0a0
 hi CursorColumn guibg=#e0e0e0 guifg=#202020
@@ -27,20 +27,23 @@ hi Underlined guifg=#202020 guibg=#f0f0f0 gui=underline
 
 hi Statement guibg=#e0e0e0 guifg=#606060 gui=none
 hi Label guibg=#e0e0e0 guifg=#606060 gui=underline
+hi Operator guifg=#a77039 guibg=#f0f0f0 gui=none
 
 hi Title guibg=#f0f0f0 guifg=#202020 gui=underline
 
 " Python: @ in front of decorators
 "hi Define guifg=#906000 guibg=#f0e8c0 gui=bold
 hi Define guifg=#605080 guibg=#ece8f0 gui=italic,bold
+hi Include guifg=#605080 guibg=#dcd8e0 gui=none
+
 hi Function guifg=#b08020 guibg=#f0e8c0 gui=underline
 
 hi Conditional guibg=#e0e8f0 guifg=#5080b0 gui=bold
-hi Repeat guibg=#f0f0f0 guifg=#509030 gui=bold
+hi Repeat guibg=#e0e8d8 guifg=#509030 gui=bold
 hi Exception guibg=#f0f0f0 guifg=#a03020 gui=bold
 
 hi Type guifg=#607080 guibg=#f0f0f0 gui=underline
-hi PreProc guifg=#605080 guibg=#ece8f0 gui=italic
+hi PreProc guifg=#605080 guibg=#dcd8e0 gui=italic
 hi Identifier guifg=#608050 guibg=#c0e0c0 gui=none
 
 
